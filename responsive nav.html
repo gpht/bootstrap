@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--bootstrap 4.0.0-->
+    <link rel="stylesheet" href="static/CSS/bootstrap.min.css" crossorigin="anonymous">
+    <title>Hello,Bootstrap</title>
+    <style>
+        .row div{
+            border:1px solid silver;
+        }
+    </style>
+</head>
+<body>
+    <!--add class style,navbar-light,My Website color changed
+    add bg-light,background-color changed-->
+    <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+        <!--add class style, My Website font will be changed-->
+        <a href="#" class="navbar-brand">My Website</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       <div class="collapse navbar-collapse" id="navbarCollapse">
+           <!--add div collapse navbar-clooapse,following  li will disappeared-->
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                   <a href="#" class="nav-link">HomePage</a>
+                </li>
+                <li class="navbar-item">
+                   <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="navbar-item">
+                   <a href="#" class="nav-link">About Me</a>
+                </li>
+                <li class="navbar-item">
+                   <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+       </div>
+    </nav>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="static/JS/jquery-3.2.1.slim.min.js"></script>
+    <!--popper 1.12.9-->
+    <script src="static/JS/popper.min.js"></script>
+    <!--4.0.0-->
+    <script src="static/JS/bootstrap.min.js"></script>
+</body>
+</html>
