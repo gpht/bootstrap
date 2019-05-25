@@ -7,20 +7,32 @@
     <link rel="stylesheet" href="static/CSS/bootstrap.min.css" crossorigin="anonymous">
     <title>Hello,Form</title>
     <style>
-        .row div{
-            border:1px solid silver;
-        }
+        <!--.row div{-->
+            <!--border:1px solid silver;-->
+        <!--}-->
     </style>
 </head>
 <body>
     <div class="container" style="margin-top:20px;">
         <form action="">
-            <label for="">Email Address</label>
-            <input type="text" class="form-control">
+            <div class="form-group row">
+                <label for="" class="col-sm-3 col-form-label">Email Address</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
 
-            <label for="">Password</label>
-            <input type="password" class="form-control"><br/>
-            <button type="submit" class="btn btn-primary">Login Now</button>
+            <div class="form-group row">
+                <label for="" class="col-sm-3 col-form-label">Password</label>
+                <div class="col-sm-9">
+                    <input type="password" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-9  offset-sm-3">
+                 <button type="submit" class="btn btn-primary">Login Now</button>
+               </div>
+            </div>
         </form>
     </div>
 </body>
