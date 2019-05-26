@@ -15,12 +15,18 @@
 <body>
     <div class="container" style="margin-top:30px;">
         <!--nav-tabs-->
-        <ul class="nav nav-pills ">
+        <ul class="nav nav-tabs ">
             <li class="nav-item ">
                 <a href="#" class="nav-link active">Item One</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Item Two</a>
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Item Two</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Dropdown 1</a>
+                    <a href="#" class="dropdown-item">Dropdown 2</a>
+                    <a href="#" class="dropdown-item">Dropdown 3</a>
+                    <a href="#" class="dropdown-item">Dropdown 4</a>
+                </div>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link">Item Three</a>
@@ -30,5 +36,10 @@
             </li>
         </ul>
     </div>
+    <script src="static/JS/jquery-3.2.1.slim.min.js"></script>
+    <!--popper 1.12.9-->
+    <script src="static/JS/popper.min.js"></script>
+    <!--4.0.0-->
+    <script src="static/JS/bootstrap.min.js"></script>
 </body>
 </html>
